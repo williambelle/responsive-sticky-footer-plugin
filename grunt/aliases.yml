@@ -1,3 +1,6 @@
 test:
   - 'jshint:all'
   - 'jscs:all'
+
+release:
+  - 'uglify'

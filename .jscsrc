@@ -1,4 +1,8 @@
 {
   "preset": "node-style-guide",
-  "excludeFiles": ["node_modules/**", "bower_components/**", "www/**"],
+  "excludeFiles": [
+    "node_modules/**",
+    "dist/**",
+    "grunt/uglify.js",
+  ],
 }
