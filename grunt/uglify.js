@@ -6,7 +6,7 @@ module.exports = {
   },
   release: {
     files: {
-      'dist/jquery.responsiveStickyFooter-<%= pkg.version %>.min.js': [
+      'dist/jquery.responsiveStickyFooter.min.js': [
         'src/jquery.responsiveStickyFooter.js',
       ],
     },
