@@ -2,12 +2,12 @@
   "name": "responsive-sticky-footer-plugin",
   "private": true,
   "version": "0.0.1",
-  "description": "",
+  "description": "Responsive sticky footer plugin for jQuery",
   "keywords": [
   ],
   "author": "William Belle <william.belle@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/healthonnet/hon-http-urlchecker.git",
+  "repository": "https://github.com/williambelle/responsive-sticky-footer-plugin.git",
   "scripts": {
     "test": "grunt test"
   },
