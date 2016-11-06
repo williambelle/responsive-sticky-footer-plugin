@@ -3,4 +3,5 @@ test:
   - 'jscs:all'
 
 release:
+  - 'copy'
   - 'uglify'

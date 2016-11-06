@@ -3,6 +3,8 @@ module.exports = {
     compress: {
       drop_console: true,
     },
+    sourceMap: true,
+    sourceMapName: 'dist/jquery.responsiveStickyFooter.map',
   },
   release: {
     files: {
