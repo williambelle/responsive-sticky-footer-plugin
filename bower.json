@@ -17,7 +17,7 @@
   "ignore": [
     ".*",
     "*.json",
-    "*.js",
+    "gruntfile.js",
     "src/**",
     "grunt/**"
   ],
