@@ -16,7 +16,7 @@ Install
 $ bower install responsive-sticky-footer-plugin
 ```
 
-### Download
+### Download
 
 Download `jquery.responsiveStickyFooter.min.js` from the  [Github Release pages](https://github.com/williambelle/responsive-sticky-footer-plugin/releases)
 
