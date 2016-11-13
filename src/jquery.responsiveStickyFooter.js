@@ -21,12 +21,14 @@
 
   // Plugin defaults
   $.fn.responsiveStickyFooter.defaults = {
+    extraHeight: 0,
   };
 
   // Set footer position
   $.fn.responsiveStickyFooter.setFooterPosition = function(element, options) {
     var footerHeight = $(element).height();
-    var htmlHeight = $(document.body).height() + footerHeight + 50;
+    var htmlHeight = $(document.body).height() + footerHeight +
+      options.extraHeight;
     if (htmlHeight < $(window).height()) {
       $(element).css({position: 'absolute'});
     } else {
