@@ -1,3 +1,10 @@
+/*!
+ * jQuery Responsive Sticky footer v0.0.1
+ *
+ * Copyright 2016 William Belle
+ * Released under the MIT license
+ */
+
 (function($, window) {
   'use strict';
 
