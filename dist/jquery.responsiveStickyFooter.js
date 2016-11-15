@@ -1,3 +1,10 @@
+/*!
+ * jQuery Responsive Sticky footer v0.0.1
+ *
+ * Copyright 2016 William Belle
+ * Released under the MIT license
+ */
+
 (function($, window) {
   'use strict';
 
@@ -21,12 +28,14 @@
 
   // Plugin defaults
   $.fn.responsiveStickyFooter.defaults = {
+    extraHeight: 0,
   };
 
   // Set footer position
   $.fn.responsiveStickyFooter.setFooterPosition = function(element, options) {
     var footerHeight = $(element).height();
-    var htmlHeight = $(document.body).height() + footerHeight + 50;
+    var htmlHeight = $(document.body).height() + footerHeight +
+      options.extraHeight;
     if (htmlHeight < $(window).height()) {
       $(element).css({position: 'absolute'});
     } else {
