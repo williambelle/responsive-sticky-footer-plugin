@@ -49,6 +49,21 @@ Usage
 </script>
 ```
 
+Options
+-------
+
+### extraHeight
+
+Type: ``int``
+
+Add an extra height
+
+```javascript
+$('#footer').responsiveStickyFooter({
+  extraHeight: 50
+});
+```
+
 Build
 -----
 
