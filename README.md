@@ -89,6 +89,6 @@ The MIT License (MIT)
 [travis-image]: https://travis-ci.org/williambelle/responsive-sticky-footer-plugin.svg?branch=master
 [travis-url]: https://travis-ci.org/williambelle/responsive-sticky-footer-plugin
 [gemnasium-image]: https://gemnasium.com/badges/github.com/williambelle/responsive-sticky-footer-plugin.svg
-[gemnasium-url]: (https://gemnasium.com/github.com/williambelle/responsive-sticky-footer-plugin
+[gemnasium-url]: https://gemnasium.com/github.com/williambelle/responsive-sticky-footer-plugin
 [bower-image]: https://img.shields.io/bower/v/responsive-sticky-footer-plugin.svg
 [bower-url]: http://bower.io/search/?q=responsive-sticky-footer-plugin
