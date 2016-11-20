@@ -14,7 +14,7 @@
     // Extend default options with those provided
     var options = $.extend({}, $.fn.responsiveStickyFooter.defaults, opts);
 
-    $.fn.responsiveStickyFooter.setFooterPosition(this, options);
+    $.fn.responsiveStickyFooter.setFooterPosition(this, options.extraHeight);
     var self = this;
     $(window).scroll(function() {
       $.fn.responsiveStickyFooter.setFooterPosition(self, options);
@@ -32,14 +32,14 @@
   };
 
   // Set footer position
-  $.fn.responsiveStickyFooter.setFooterPosition = function(element, options) {
-    var footerHeight = $(element).height();
-    var htmlHeight = $(document.body).height() + footerHeight +
-      options.extraHeight;
+  $.fn.responsiveStickyFooter.setFooterPosition = function(el, extraHeight) {
+    var footerHeight = $(el).height();
+    extraHeight = extraHeight || 0;
+    var htmlHeight = $(document.body).height() + footerHeight + extraHeight;
     if (htmlHeight < $(window).height()) {
-      $(element).css({position: 'absolute'});
+      $(el).css({position: 'absolute'});
     } else {
-      $(element).css({position: 'static'});
+      $(el).css({position: 'static'});
     }
   };
 
