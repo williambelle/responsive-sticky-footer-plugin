@@ -1,5 +1,5 @@
 /*!
- * jQuery Responsive Sticky footer v1.0.1
+ * jQuery Responsive Sticky footer v1.0.2
  *
  * Copyright 2016 William Belle
  * Released under the MIT license
